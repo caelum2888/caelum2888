@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="./assets/header.svg" width="100%" alt="CAELUM // SYSTEMS banner" />
+</p>
+
 # Vitor Scheitel
 
 > **AI Systems · Backend · Automation · Security**
