@@ -1,91 +1,74 @@
 # Vitor Scheitel
 
-### AI Systems · Backend · Automation · Security
-
-I build software focused on automation, AI-assisted workflows, and systems that solve real operational problems.
-
-Currently exploring the intersection between **software engineering, AI agents, cybersecurity, and human–AI orchestration**.
-
----
-
-## Current focus
+> **AI Systems · Backend · Automation · Security**
 
 ```text
-> Building internal tools and automation systems
-> Developing backend applications with Python and FastAPI
-> Exploring AI agents, guardrails and orchestration
-> Studying Linux, security and software architecture
+CAELUM // SYSTEMS
+
+build useful software
+remove repetitive work
+keep humans in control
 ```
 
-## Stack
+I build software around **automation, backend systems and AI-assisted workflows** — especially where real operational problems need structure, traceability and human control.
 
-**Languages**
-
-`Python` `JavaScript`
-
-**Backend & APIs**
-
-`FastAPI` `REST APIs`
-
-**Tools & Infrastructure**
-
-`Git` `GitHub` `Linux` `Docker` `VS Code`
-
-**AI**
-
-`OpenAI` `Claude` `Gemini` `AI Agents` `LLM Workflows`
+Currently focused on the intersection of **software engineering, AI agents, cybersecurity and human–AI orchestration**.
 
 ---
 
-## Selected Projects
+## What I'm building
 
-### Maestro
+### [Maestro — Human–AI Orchestration](https://github.com/caelum2888/Maestro-Segundo-Cerebro)
 
-**Human–AI orchestration system**
+A structured knowledge and governance layer for human–AI development workflows.
 
-A project focused on creating structured workflows between humans and AI agents, including policy enforcement, guardrails, approvals, knowledge management, and auditable execution.
+It organizes **context, decisions, risks, approvals, guardrails, handoffs and auditable evidence** so AI agents can operate with clearer boundaries.
 
-`AI Agents` `Security` `Automation` `Knowledge Systems`
-
----
+`AI Agents` `Security` `Obsidian` `Guardrails` `Human-in-the-loop`
 
 ### AI Copy Generator
 
-Internal tool for generating marketing copy from structured context and content transcription.
+Internal tool that turns structured context and content transcription into marketing copy through an LLM-backed API.
 
-Built around a FastAPI backend and an LLM-based generation pipeline.
-
-`Python` `FastAPI` `LLMs` `REST API`
-
----
+`Python` `FastAPI` `REST API` `LLMs`
 
 ### Workshop Management System
 
-Operational system used to manage students, attendance, enrollment status, and workshop metrics.
-
-Designed around real administrative workflows rather than a fictional portfolio scenario.
+Operational software for real workshop workflows: students, attendance, enrollment status, reconciliation and metrics.
 
 `Python` `Automation` `Data Management`
 
 ---
 
-## Currently learning
+## Stack
 
 ```text
-Software Architecture
-Cybersecurity
-AI Engineering
-Backend Development
-Linux
+LANGUAGES        Python · JavaScript
+BACKEND          FastAPI · REST APIs
+TOOLS            Git · GitHub · VS Code
+SYSTEMS          Linux · Docker
+AI               OpenAI · Claude · Gemini · Agent Workflows
 ```
 
 ---
 
-## Philosophy
+## Current direction
+
+- Backend and software architecture
+- AI engineering and agent orchestration
+- Cybersecurity and Linux
+- Automation of real operational workflows
+- Safer human–AI systems with explicit approval boundaries
+
+---
+
+## Engineering mindset
 
 > Understand the system. Then improve it.
 
-I am particularly interested in projects where software removes repetitive work, organizes complex information, or gives humans better control over AI systems.
+I care more about **systems that actually work** than portfolio demos built only to look impressive.
+
+The goal is simple: turn messy processes into software that is understandable, useful and maintainable.
 
 ---
 
