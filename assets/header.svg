@@ -1,0 +1,12 @@
+<svg width="1200" height="280" viewBox="0 0 1200 280" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1200" height="280" rx="24" fill="#0B0F14"/>
+  <rect x="1" y="1" width="1198" height="278" rx="23" stroke="#26313D" stroke-width="2"/>
+  <circle cx="42" cy="36" r="7" fill="#3A4652"/>
+  <circle cx="66" cy="36" r="7" fill="#3A4652"/>
+  <circle cx="90" cy="36" r="7" fill="#3A4652"/>
+  <path d="M0 66H1200" stroke="#1C2630"/>
+  <text x="64" y="128" fill="#E6EDF3" font-family="monospace" font-size="38" font-weight="700" letter-spacing="4">CAELUM // SYSTEMS</text>
+  <text x="64" y="174" fill="#8B98A5" font-family="monospace" font-size="20" letter-spacing="2">VITOR SCHEITEL</text>
+  <text x="64" y="221" fill="#6EE7B7" font-family="monospace" font-size="17" letter-spacing="1.5">AI SYSTEMS  ·  BACKEND  ·  AUTOMATION  ·  SECURITY</text>
+  <text x="1052" y="222" fill="#485563" font-family="monospace" font-size="14">build // iterate</text>
+</svg>
