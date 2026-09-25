@@ -1,0 +1,9 @@
+<svg width="760" height="260" viewBox="0 0 760 260" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="760" height="260" rx="22" fill="#0B0F14"/>
+  <rect x="1" y="1" width="758" height="258" rx="21" stroke="#26313D" stroke-width="2"/>
+  <text x="42" y="52" fill="#6EE7B7" font-family="monospace" font-size="13" letter-spacing="1.8">PROJECT // 02</text>
+  <text x="42" y="105" fill="#E6EDF3" font-family="monospace" font-size="30" font-weight="700">WORKSHOP MANAGER</text>
+  <text x="42" y="140" fill="#8B98A5" font-family="monospace" font-size="16">Operational workflow system</text>
+  <text x="42" y="188" fill="#C9D1D9" font-family="monospace" font-size="14">attendance · metrics · reports · multi-tenancy</text>
+  <text x="42" y="222" fill="#65717D" font-family="monospace" font-size="12">FastAPI / SQLAlchemy / Automation</text>
+</svg>
