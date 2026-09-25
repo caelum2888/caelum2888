@@ -36,11 +36,11 @@ Internal tool that turns structured context and content transcription into marke
 
 `Python` `FastAPI` `REST API` `LLMs`
 
-### Workshop Management System
+### [Workshop Manager](https://github.com/caelum2888/workshop-manager)
 
-Operational software for real workshop workflows: students, attendance, enrollment status, reconciliation and metrics.
+Operational software built from a real workflow: students, attendance, enrollment lifecycle, deterministic metrics, reporting, multi-tenancy and human-reviewed AI assistance.
 
-`Python` `Automation` `Data Management`
+`Python` `FastAPI` `SQLAlchemy` `Multi-tenant` `Automation`
 
 ---
 
