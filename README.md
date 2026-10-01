@@ -1,128 +1,65 @@
 <p align="center">
-  <img src="./assets/header.svg" width="100%" alt="CAELUM // SYSTEMS banner" />
+  <img src="./assets/header.svg" width="100%" alt="CAELUM // SYSTEMS — Vitor Scheitel. Backend, automation and AI with a human in the loop. Building defensive security foundations. Open to internships." />
 </p>
 
-<p align="center">
-  <a href="https://git.io/typing-svg">
-    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&pause=900&color=6EE7B7&center=true&vCenter=true&width=900&lines=AI+Systems+%26+Backend;Automation+%26+Internal+Tools;Cybersecurity+%26+Linux;Human-AI+Orchestration" alt="Typing SVG" />
-  </a>
-</p>
+I build backend systems and automation for workflows that were living in forms and spreadsheets. What I care about most are the unglamorous parts: rules that stay predictable, actions you can trace later, and a person who stays in charge when AI is involved.
 
-<p align="center">
-  <img src="./assets/profile-card.svg" width="100%" alt="Vitor Scheitel identity card" />
-</p>
+I'm early in my career and looking for an **internship** in backend, infrastructure, automation or defensive security. I'm deliberately building toward defensive security while backend and automation remain my strongest public proof — I'd rather show the work than borrow a title I haven't earned yet.
 
-<p align="center">
-  <a href="https://github.com/caelum2888/Maestro-Segundo-Cerebro">
-    <img src="https://img.shields.io/badge/MAESTRO-111821?style=for-the-badge&logo=github&logoColor=6EE7B7" alt="Maestro" />
-  </a>
-  <a href="https://github.com/caelum2888/workshop-manager">
-    <img src="https://img.shields.io/badge/WORKSHOP_MANAGER-111821?style=for-the-badge&logo=github&logoColor=6EE7B7" alt="Workshop Manager" />
-  </a>
-</p>
+Some of what I build is private. What's below is what I can show in detail.
 
 ---
 
-## Who I am
+## Systems
 
-I build software for situations where **spreadsheets, repetitive work, scattered context and manual decisions start getting in the way**.
-
-My work sits mostly around:
-
-```text
-backend systems
-automation
-AI-assisted workflows
-security-minded architecture
-internal tools that solve real operational problems
-```
-
-I’m especially interested in building systems where AI is useful **without becoming the system of record or removing human control**.
-
-My next professional step is an **internship in technology**, especially where backend, automation, infrastructure or defensive security meet real systems.
-
----
-
-## Selected systems
+<a href="https://github.com/caelum2888/workshop-manager">
+  <img src="./assets/card-workshop.svg" width="100%" alt="Workshop Manager: lesson, attendance, metrics, report draft, human review. FastAPI, SQLAlchemy 2, Alembic, pytest, 200+ tests." />
+</a>
 
 <a href="https://github.com/caelum2888/Maestro-Segundo-Cerebro">
-  <img src="./assets/card-maestro.svg" width="49%" alt="Maestro project card" />
-</a>
-<a href="https://github.com/caelum2888/workshop-manager">
-  <img src="./assets/card-workshop.svg" width="49%" alt="Workshop Manager project card" />
+  <img src="./assets/card-maestro.svg" width="100%" alt="Maestro: context, decision, approval, execution, evidence. Obsidian vault with 8 draft policies and 4 gates. Status: MVP discovery." />
 </a>
 
-### Maestro — Human–AI Orchestration
+### If you only have two minutes
 
-A structured operational layer for AI-assisted development.
+| | Open this |
+| --- | --- |
+| Workshop Manager | [`app/services/`](https://github.com/caelum2888/workshop-manager/tree/main/app/services) (business rules live here, not in the routers) · [`tests/test_tenant_isolation.py`](https://github.com/caelum2888/workshop-manager/blob/main/tests/test_tenant_isolation.py) · [`app/session.py`](https://github.com/caelum2888/workshop-manager/blob/main/app/session.py) |
+| Maestro | [`AGT-002` prompt-injection policy](https://github.com/caelum2888/Maestro-Segundo-Cerebro/blob/main/21%20Pol%C3%ADticas%20e%20Pr%C3%A1ticas%20de%20Desenvolvimento/Pol%C3%ADticas%20da%20Empresa/05-AGT-002-Prompt-Injection.md) · [`CHK-002` pull request gate](https://github.com/caelum2888/Maestro-Segundo-Cerebro/blob/main/23%20Checklists%20e%20Gates/CHK-002-Pull-Request.md) · [decision log](https://github.com/caelum2888/Maestro-Segundo-Cerebro/blob/main/01%20Projeto%20Maestro/15%20Decis%C3%B5es/REGISTRO-DE-DECISOES.md) |
 
-It explores how to preserve **context, approvals, guardrails, risks, handoffs and auditability** while agents participate in real workflows.
+---
 
-### Workshop Manager
+## Rules I keep
 
-Software derived from a real operational workflow for managing **students, attendance, enrollment lifecycle, metrics and monthly reporting**.
+| Rule | Where it shows up |
+| --- | --- |
+| **AI never does the math.** | In Workshop Manager, attendance metrics are deterministic. The LLM only drafts text from records that already exist, and the app works without it. |
+| **A person finalizes.** | Reports go draft → review → final, and finalizing is a human action. Maestro treats approvals the same way: explicit, never implied. |
+| **Fail closed.** | The server won't start without a 32+ character `SECRET_KEY`, or against a missing or outdated database schema. |
+| **One place for the rules.** | Business logic and tenant isolation sit in the service layer, with tests, so the web UI, scripts and future agents all hit the same checks. |
+| **Data is not instructions.** | Maestro's AGT-002 draft: anything an agent retrieves can't change its permissions or goals. |
 
-The public repository is a portfolio-safe version of the system.
+---
+
+## Security track
+
+<p align="center">
+  <img src="./assets/security-track.svg" width="100%" alt="Security track. In my code: salted scrypt hashes, HMAC-signed sessions, fail-closed startup, RBAC and tenant isolation tests. In my docs: security policies and approval gates. Building next: networking, Linux hardening, logs, detection and incident response labs." />
+</p>
+
+The first two columns are evidence already public. The third is the hands-on track I'm turning into labs next.
 
 ---
 
 ## Stack
 
 <p align="center">
-  <img src="https://skillicons.dev/icons?i=python,js,fastapi,linux,docker,git,github,vscode&perline=8" alt="Core stack" />
+  <img src="./assets/stack.svg" width="100%" alt="Stack used across public projects: Python, FastAPI, Pydantic v2, SQLAlchemy 2, Alembic, REST APIs, pytest, JavaScript, Linux, GitHub, SQLite, PostgreSQL, OpenAI, Claude, Gemini and agent workflows." />
 </p>
 
-```text
-BACKEND      FastAPI · REST APIs · SQLAlchemy
-SYSTEMS      Linux · Docker · Git
-AI           OpenAI · Claude · Gemini · Agent Workflows
-WORKFLOW     GitHub · VS Code · Obsidian
-```
-
 ---
 
-## Security track
-
-My security path is still a **learning track, not a job title**. I’m building the fundamentals deliberately:
-
-```text
-networking fundamentals
-Linux and system internals
-security principles and hardening
-defensive thinking and incident awareness
-secure backend design
-```
-
-The goal is to turn that foundation into practical Blue Team work: logs, detection, investigation, hardening and incident response.
-
----
-
-## What I optimize for
-
-<table>
-  <tr>
-    <td><strong>Useful systems</strong><br/>Software should solve a real workflow, not exist only as a demo.</td>
-    <td><strong>Deterministic core</strong><br/>Rules, metrics and critical behavior should stay predictable.</td>
-  </tr>
-  <tr>
-    <td><strong>Human control</strong><br/>AI should assist execution without hiding responsibility.</td>
-    <td><strong>Traceability</strong><br/>Important actions, decisions and state changes should be understandable later.</td>
-  </tr>
-</table>
-
----
-
-## Current direction
-
-```text
-01  Backend & software architecture
-02  Defensive security & Linux
-03  Networking & systems fundamentals
-04  AI agents & orchestration
-05  Automation of real operational workflows
-```
-
----
+<!-- Add LinkedIn and/or a professional email here when ready. -->
 
 <p align="center">
   <strong>Understand the system. Then improve it.</strong>
