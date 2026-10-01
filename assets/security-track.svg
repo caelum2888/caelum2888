@@ -1,0 +1,40 @@
+<svg width="1200" height="420" viewBox="0 0 1200 420" fill="none" xmlns="http://www.w3.org/2000/svg" role="img">
+  <style>text { font-family: ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, "Liberation Mono", monospace; }</style>
+  <rect width="1200" height="420" rx="24" fill="#0B0F14"/>
+  <rect x="1" y="1" width="1198" height="418" rx="23" stroke="#26313D" stroke-width="2"/>
+  <text x="48" y="58" fill="#6EE7B7" font-size="16" font-weight="700" letter-spacing="3">SECURITY TRACK</text>
+  <rect x="774" y="34" width="378" height="32" rx="16" fill="#1B1710" stroke="#F5C26B" stroke-opacity=".5"/>
+  <text x="963" y="55" fill="#F5C26B" font-size="14" letter-spacing="1.2" text-anchor="middle">DEFENSIVE SECURITY · LEARNING TRACK</text>
+
+  <rect x="48" y="92" width="354" height="252" rx="16" fill="#0F161D" stroke="#26313D"/>
+  <text x="72" y="128" fill="#6EE7B7" font-size="17" font-weight="700" letter-spacing="2">IN MY CODE</text>
+  <text x="72" y="150" fill="#65717D" font-size="13">workshop-manager · public</text>
+  <g font-size="15" fill="#C9D1D9">
+    <text x="72" y="196"><tspan fill="#6EE7B7">›</tspan> salted scrypt password hashes</text>
+    <text x="72" y="236"><tspan fill="#6EE7B7">›</tspan> HMAC-signed HttpOnly sessions</text>
+    <text x="72" y="276"><tspan fill="#6EE7B7">›</tspan> fail-closed startup checks</text>
+    <text x="72" y="316"><tspan fill="#6EE7B7">›</tspan> RBAC + tenant isolation tests</text>
+  </g>
+
+  <rect x="423" y="92" width="354" height="252" rx="16" fill="#0F161D" stroke="#26313D"/>
+  <text x="447" y="128" fill="#6EE7B7" font-size="17" font-weight="700" letter-spacing="2">IN MY DOCS</text>
+  <text x="447" y="150" fill="#65717D" font-size="13">maestro · policy drafts</text>
+  <g font-size="15" fill="#C9D1D9">
+    <text x="447" y="196"><tspan fill="#6EE7B7">›</tspan> secrets, IAM, privacy policies</text>
+    <text x="447" y="236"><tspan fill="#6EE7B7">›</tspan> prompt-injection policy</text>
+    <text x="447" y="276"><tspan fill="#6EE7B7">›</tspan> approval gates for agents</text>
+    <text x="447" y="316"><tspan fill="#6EE7B7">›</tspan> incident response, audit trail</text>
+  </g>
+
+  <rect x="798" y="92" width="354" height="252" rx="16" fill="#14110C" stroke="#F5C26B" stroke-opacity=".35"/>
+  <text x="822" y="128" fill="#F5C26B" font-size="17" font-weight="700" letter-spacing="2">BUILDING NEXT</text>
+  <text x="822" y="150" fill="#8B98A5" font-size="13">hands-on public labs</text>
+  <g font-size="15" fill="#C9D1D9">
+    <text x="822" y="196"><tspan fill="#F5C26B">›</tspan> networking fundamentals</text>
+    <text x="822" y="236"><tspan fill="#F5C26B">›</tspan> Linux internals + hardening</text>
+    <text x="822" y="276"><tspan fill="#F5C26B">›</tspan> logs, detection, investigation</text>
+    <text x="822" y="316"><tspan fill="#F5C26B">›</tspan> incident response practice</text>
+  </g>
+
+  <text x="48" y="388" fill="#8B98A5" font-size="15">Public evidence first. Hands-on defensive labs are the next layer.</text>
+</svg>
