@@ -1,0 +1,37 @@
+<svg width="1200" height="360" viewBox="0 0 1200 360" fill="none" xmlns="http://www.w3.org/2000/svg" role="img">
+  <style>text { font-family: ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, "Liberation Mono", monospace; }</style>
+  <rect width="1200" height="360" rx="24" fill="#0B0F14"/>
+  <rect x="1" y="1" width="1198" height="358" rx="23" stroke="#26313D" stroke-width="2"/>
+  <text x="48" y="56" fill="#6EE7B7" font-size="16" font-weight="700" letter-spacing="3">STACK // WHAT I ACTUALLY USE</text>
+
+  <text x="48" y="104" fill="#8B98A5" font-size="14" letter-spacing="2">BUILD</text>
+  <g font-size="14" fill="#E6EDF3">
+    <rect x="48" y="122" width="106" height="36" rx="18" fill="#0F161D" stroke="#33404D"/><text x="101" y="145" text-anchor="middle">Python</text>
+    <rect x="166" y="122" width="116" height="36" rx="18" fill="#0F161D" stroke="#33404D"/><text x="224" y="145" text-anchor="middle">FastAPI</text>
+    <rect x="294" y="122" width="130" height="36" rx="18" fill="#0F161D" stroke="#33404D"/><text x="359" y="145" text-anchor="middle">Pydantic v2</text>
+    <rect x="436" y="122" width="146" height="36" rx="18" fill="#0F161D" stroke="#33404D"/><text x="509" y="145" text-anchor="middle">SQLAlchemy 2</text>
+    <rect x="594" y="122" width="108" height="36" rx="18" fill="#0F161D" stroke="#33404D"/><text x="648" y="145" text-anchor="middle">Alembic</text>
+    <rect x="714" y="122" width="112" height="36" rx="18" fill="#0F161D" stroke="#33404D"/><text x="770" y="145" text-anchor="middle">REST APIs</text>
+    <rect x="838" y="122" width="96" height="36" rx="18" fill="#0F161D" stroke="#33404D"/><text x="886" y="145" text-anchor="middle">pytest</text>
+    <rect x="946" y="122" width="142" height="36" rx="18" fill="#0F161D" stroke="#33404D"/><text x="1017" y="145" text-anchor="middle">JavaScript</text>
+  </g>
+
+  <text x="48" y="206" fill="#8B98A5" font-size="14" letter-spacing="2">SYSTEMS + DATA</text>
+  <g font-size="14" fill="#E6EDF3">
+    <rect x="48" y="224" width="98" height="36" rx="18" fill="#0F161D" stroke="#33404D"/><text x="97" y="247" text-anchor="middle">Linux</text>
+    <rect x="158" y="224" width="120" height="36" rx="18" fill="#0F161D" stroke="#33404D"/><text x="218" y="247" text-anchor="middle">Git/GitHub</text>
+    <rect x="290" y="224" width="106" height="36" rx="18" fill="#0F161D" stroke="#33404D"/><text x="343" y="247" text-anchor="middle">SQLite</text>
+    <rect x="408" y="224" width="126" height="36" rx="18" fill="#0F161D" stroke="#33404D"/><text x="471" y="247" text-anchor="middle">PostgreSQL</text>
+  </g>
+
+  <text x="648" y="206" fill="#8B98A5" font-size="14" letter-spacing="2">AI WORKFLOWS</text>
+  <g font-size="14" fill="#E6EDF3">
+    <rect x="648" y="224" width="98" height="36" rx="18" fill="#0F1A17" stroke="#3F5B50"/><text x="697" y="247" text-anchor="middle">OpenAI</text>
+    <rect x="758" y="224" width="98" height="36" rx="18" fill="#0F1A17" stroke="#3F5B50"/><text x="807" y="247" text-anchor="middle">Claude</text>
+    <rect x="868" y="224" width="98" height="36" rx="18" fill="#0F1A17" stroke="#3F5B50"/><text x="917" y="247" text-anchor="middle">Gemini</text>
+    <rect x="978" y="224" width="158" height="36" rx="18" fill="#0F1A17" stroke="#3F5B50"/><text x="1057" y="247" text-anchor="middle">Agent workflows</text>
+  </g>
+
+  <path d="M48 300H1152" stroke="#1C2630"/>
+  <text x="48" y="329" fill="#65717D" font-size="13">guardrails · approval gates · deterministic business rules · auditable state</text>
+</svg>
