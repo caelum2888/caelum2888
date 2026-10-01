@@ -39,6 +39,8 @@ internal tools that solve real operational problems
 
 I’m especially interested in building systems where AI is useful **without becoming the system of record or removing human control**.
 
+My next professional step is an **internship in technology**, especially where backend, automation, infrastructure or defensive security meet real systems.
+
 ---
 
 ## Selected systems
@@ -79,6 +81,22 @@ WORKFLOW     GitHub · VS Code · Obsidian
 
 ---
 
+## Security track
+
+My security path is still a **learning track, not a job title**. I’m building the fundamentals deliberately:
+
+```text
+networking fundamentals
+Linux and system internals
+security principles and hardening
+defensive thinking and incident awareness
+secure backend design
+```
+
+The goal is to turn that foundation into practical Blue Team work: logs, detection, investigation, hardening and incident response.
+
+---
+
 ## What I optimize for
 
 <table>
@@ -98,10 +116,10 @@ WORKFLOW     GitHub · VS Code · Obsidian
 
 ```text
 01  Backend & software architecture
-02  AI agents & orchestration
-03  Cybersecurity & Linux
-04  Automation of real operational workflows
-05  Turning internal tools into products
+02  Defensive security & Linux
+03  Networking & systems fundamentals
+04  AI agents & orchestration
+05  Automation of real operational workflows
 ```
 
 ---
