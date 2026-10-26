@@ -51,20 +51,17 @@ def public_repos():
     return repos
 
 
-def compact(number: int) -> str:
-    return f"{number:,}"
-
-
 def render(repos, language_totals):
-    stars = sum(int(item.get("stargazers_count") or 0) for item in repos)
-    forks = sum(int(item.get("forks_count") or 0) for item in repos)
+    projects = [item for item in repos if item.get("name") != OWNER]
+    newest_push = max((item.get("pushed_at") or "" for item in projects), default="")
+    pushed_date = newest_push[:10] if newest_push else "N/A"
     items = sorted(language_totals.items(), key=lambda pair: pair[1], reverse=True)[:5]
     total = sum(language_totals.values())
     palette = ["#5ED5E6", "#D99456", "#CB626B", "#668BBF", "#8BA3B2"]
     lines = [
         '<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="360" viewBox="0 0 1200 360" role="img">',
         '<title>CAELUM // PUBLIC GITHUB SIGNAL</title>',
-        '<desc>GitHub public data snapshot: original public repositories, their stars and forks, and code language usage by bytes.</desc>',
+        '<desc>Public GitHub code project count, recognized code languages, latest project push and language proportions by bytes.</desc>',
         '<style>text{font-family:ui-monospace,Menlo,Consolas,monospace}</style>',
         '<rect width="1200" height="360" rx="20" fill="#0A111A"/>',
         '<rect x="1" y="1" width="1198" height="358" rx="19" fill="none" stroke="#2A4254" stroke-width="2"/>',
@@ -73,9 +70,9 @@ def render(repos, language_totals):
         '<path d="M42 73H1158" stroke="#294253"/>',
     ]
     for x, value, title in (
-        (42, str(len(repos)), "ORIGINAL PUBLIC REPOS"),
-        (425, compact(stars), "TOTAL PUBLIC STARS"),
-        (809, compact(forks), "PUBLIC REPO FORKS"),
+        (42, str(len(projects)), "PUBLIC CODE PROJECTS"),
+        (425, str(len(language_totals)), "LANGUAGES DETECTED"),
+        (809, pushed_date, "LAST PROJECT PUSH"),
     ):
         lines.extend([
             f'<rect x="{x}" y="94" width="346" height="106" rx="12" fill="#101D29" stroke="#294455"/>',
