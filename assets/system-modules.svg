@@ -6,10 +6,10 @@
 <rect x="30" y="58" width="270" height="160" rx="12" fill="#101B29" stroke="#304759"/>
 <rect x="315" y="58" width="270" height="160" rx="12" fill="#101B29" stroke="#304759"/>
 <rect x="600" y="58" width="270" height="160" rx="12" fill="#101B29" stroke="#304759"/>
-<rect x="885" y="58" width="285" height="160" rx="12" fill="#101B29" stroke="#67404A"/>
+<rect x="885" y="58" width="285" height="160" rx="12" fill="#101B29" stroke="#6C543A"/>
 </g>
 <g font-size="14" fill="#8799B0"><text x="52" y="90">01 // BUILD</text><text x="337" y="90">02 // AUTOMATE</text><text x="622" y="90">03 // GOVERN</text><text x="907" y="90">04 // DEFEND</text></g>
 <g font-size="23" font-weight="bold" fill="#E6ECF4"><text x="52" y="135">BACKEND</text><text x="337" y="135">WORKFLOWS</text><text x="622" y="135">AI GUARDRAILS</text><text x="907" y="135">SECURITY TRACK</text></g>
-<g font-size="14" fill="#50D9F5"><text x="52" y="180">FastAPI · SQLAlchemy</text><text x="337" y="180">Operations · APIs</text><text x="622" y="180">Human approvals</text><text x="907" y="180" fill="#EE5962">Linux · detection labs</text></g>
-<g stroke="#50D9F5" stroke-width="2"><path d="M52 199H150"/><path d="M337 199H435"/><path d="M622 199H720"/></g><path d="M907 199H1005" stroke="#EE5962" stroke-width="2"/>
+<g font-size="14" fill="#50D9F5"><text x="52" y="180">FastAPI · SQLAlchemy</text><text x="337" y="180">Operations · APIs</text><text x="622" y="180">Human approvals</text><text x="907" y="180" fill="#E1A358">Linux · detection labs</text></g>
+<g stroke="#50D9F5" stroke-width="2"><path d="M52 199H150"/><path d="M337 199H435"/><path d="M622 199H720"/></g><path d="M907 199H1005" stroke="#E1A358" stroke-width="2"/>
 </svg>
