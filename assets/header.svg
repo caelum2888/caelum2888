@@ -1,72 +1,44 @@
-<svg width="1200" height="440" viewBox="0 0 1200 440" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="t d">
-  <title id="t">CAELUM // SYSTEMS — Vitor Scheitel</title>
-  <desc id="d">Backend, automation and AI systems with a human in the loop. Building hands-on defensive security foundations. Open to internships.</desc>
-  <style>
-    text { font-family: ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, "Liberation Mono", monospace; }
-    .in { animation: in .55s ease-out backwards; }
-    .d1 { animation-delay: .15s; } .d2 { animation-delay: .45s; } .d3 { animation-delay: .8s; }
-    .d4 { animation-delay: 1.1s; } .d5 { animation-delay: 1.4s; } .d6 { animation-delay: 1.7s; }
-    .d7 { animation-delay: 2s; }
-    @keyframes in { from { opacity: 0; transform: translateY(6px); } to { opacity: 1; transform: none; } }
-    .glow { opacity: 0; animation: glow 4.8s ease-in-out infinite; }
-    .g1 { animation-delay: 2.6s; } .g2 { animation-delay: 3.8s; } .g3 { animation-delay: 5s; } .g4 { animation-delay: 6.2s; }
-    @keyframes glow { 0% { opacity: 0; } 8% { opacity: 1; } 25% { opacity: 1; } 33% { opacity: 0; } 100% { opacity: 0; } }
-    @media (prefers-reduced-motion: reduce) { .in, .glow { animation: none !important; } .glow { opacity: 0; } }
-  </style>
-
-  <rect width="1200" height="440" rx="24" fill="#0B0F14"/>
-  <rect x="1" y="1" width="1198" height="438" rx="23" stroke="#26313D" stroke-width="2"/>
-  <circle cx="42" cy="30" r="7" fill="#3A4652"/>
-  <circle cx="66" cy="30" r="7" fill="#3A4652"/>
-  <circle cx="90" cy="30" r="7" fill="#3A4652"/>
-  <path d="M0 60H1200" stroke="#1C2630"/>
-  <text x="1150" y="36" fill="#485563" font-size="15" text-anchor="end">caelum2888 // main</text>
-
-  <g class="in d1"><text x="64" y="116" fill="#6EE7B7" font-size="20" font-weight="700" letter-spacing="5">CAELUM // SYSTEMS</text></g>
-  <g class="in d2"><text x="64" y="192" fill="#E6EDF3" font-size="64" font-weight="700">Vitor Scheitel</text></g>
-  <g class="in d3"><text x="64" y="244" fill="#65717D" font-size="18">$ cat now.txt</text></g>
-  <g class="in d4"><text x="64" y="282" fill="#C9D1D9" font-size="21">backend · automation · AI with a human in the loop</text></g>
-  <g class="in d5"><text x="64" y="316" fill="#C9D1D9" font-size="21">defensive security · hands-on foundations in progress</text></g>
-
-  <g class="in d6"><text x="64" y="364" fill="#65717D" font-size="18">$ status</text></g>
-  <g class="in d7">
-    <rect x="64" y="382" width="158" height="36" rx="18" fill="#0F1A17" stroke="#6EE7B7" stroke-opacity=".5"/>
-    <circle cx="88" cy="400" r="5" fill="#6EE7B7"/>
-    <text x="104" y="406" fill="#6EE7B7" font-size="15" letter-spacing="1.5">BUILDING</text>
-
-    <rect x="236" y="382" width="158" height="36" rx="18" fill="#1B1710" stroke="#F5C26B" stroke-opacity=".5"/>
-    <circle cx="260" cy="400" r="5" fill="#F5C26B"/>
-    <text x="276" y="406" fill="#F5C26B" font-size="15" letter-spacing="1.5">STUDYING</text>
-
-    <rect x="408" y="382" width="288" height="36" rx="18" fill="none" stroke="#3A4652"/>
-    <circle cx="432" cy="400" r="5" fill="none" stroke="#E6EDF3" stroke-width="1.5"/>
-    <text x="448" y="406" fill="#E6EDF3" font-size="15" letter-spacing="1.5">OPEN TO INTERNSHIPS</text>
-  </g>
-
-  <g class="in d3">
-    <rect x="800" y="92" width="336" height="320" rx="16" fill="#0F161D" stroke="#26313D"/>
-    <text x="832" y="128" fill="#7D8996" font-size="14" letter-spacing="3">HOW I BUILD</text>
-
-    <rect x="832" y="146" width="272" height="48" rx="10" fill="#0B0F14" stroke="#33404D"/>
-    <rect class="glow g1" x="832" y="146" width="272" height="48" rx="10" stroke="#6EE7B7" stroke-width="2"/>
-    <text x="852" y="167" fill="#E6EDF3" font-size="17" font-weight="700">01 INPUT</text>
-    <text x="852" y="185" fill="#8B98A5" font-size="13">recorded once</text>
-    <path d="M968 198V214M964 210L968 214L972 210" stroke="#485563" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
-
-    <rect x="832" y="222" width="272" height="48" rx="10" fill="#0B0F14" stroke="#33404D"/>
-    <rect class="glow g2" x="832" y="222" width="272" height="48" rx="10" stroke="#6EE7B7" stroke-width="2"/>
-    <text x="852" y="243" fill="#E6EDF3" font-size="17" font-weight="700">02 RULES</text>
-    <text x="852" y="261" fill="#8B98A5" font-size="13">deterministic, tested</text>
-    <path d="M968 274V290M964 286L968 290L972 286" stroke="#485563" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
-
-    <rect x="832" y="298" width="272" height="48" rx="10" fill="#0B0F14" stroke="#33404D"/>
-    <rect class="glow g3" x="832" y="298" width="272" height="48" rx="10" stroke="#6EE7B7" stroke-width="2"/>
-    <text x="852" y="319" fill="#6EE7B7" font-size="17" font-weight="700">03 HUMAN</text>
-    <text x="852" y="337" fill="#8B98A5" font-size="13">reviews and decides</text>
-    <path d="M968 350V366M964 362L968 366L972 362" stroke="#485563" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
-
-    <rect x="832" y="374" width="272" height="30" rx="10" fill="#0B0F14" stroke="#33404D"/>
-    <rect class="glow g4" x="832" y="374" width="272" height="30" rx="10" stroke="#6EE7B7" stroke-width="2"/>
-    <text x="852" y="394" fill="#E6EDF3" font-size="15" font-weight="700">04 TRAIL <tspan fill="#8B98A5" font-weight="400" font-size="13"> traceable later</tspan></text>
-  </g>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 460" width="1200" height="460" role="img" aria-label="CAELUM Systems — Vitor Scheitel. Engineering systems in a Stark inspired HUD">
+<defs>
+ <linearGradient id="b" x2="1" y2="1"><stop stop-color="#0C1521"/><stop offset="1" stop-color="#070A10"/></linearGradient>
+ <linearGradient id="a"><stop stop-color="#EE424A"/><stop offset=".6" stop-color="#EE424A"/><stop offset="1" stop-color="#61DDFF"/></linearGradient>
+ <filter id="gl"><feGaussianBlur stdDeviation="7"/></filter>
+ <style>
+ text{font-family:ui-monospace,Menlo,Consolas,monospace}
+ .pulse{animation:p 4s ease-in-out infinite;transform-origin:930px 230px}.rot{animation:r 35s linear infinite;transform-origin:930px 230px}
+ @keyframes p{50%{opacity:.45}}@keyframes r{to{transform:rotate(360deg)}}
+ @media(prefers-reduced-motion:reduce){.pulse,.rot{animation:none}}
+ </style>
+</defs>
+<rect width="1200" height="460" rx="22" fill="url(#b)"/>
+<rect x="1" y="1" width="1198" height="458" rx="21" stroke="#263749" stroke-width="2"/>
+<path d="M0 56H1200 M0 408H1200" stroke="#263749"/>
+<circle cx="33" cy="28" r="5" fill="#EA555C"/><circle cx="52" cy="28" r="5" fill="#E9B45C"/><circle cx="71" cy="28" r="5" fill="#50D9F5"/>
+<text x="102" y="34" font-size="14" fill="#8B9CB0" letter-spacing="2">CAELUM // SYSTEMS</text><text x="1160" y="34" font-size="13" fill="#50D9F5" text-anchor="end">PERSONAL ENGINEERING CONSOLE</text>
+<g opacity=".16" stroke="#50D9F5" stroke-width="1">
+ <path d="M35 90H770 M35 140H770 M35 190H770 M35 240H770 M35 290H770 M35 340H770 M35 390H770"/>
+ <path d="M120 70V400 M220 70V400 M320 70V400 M420 70V400 M520 70V400 M620 70V400 M720 70V400"/>
+</g>
+<rect x="42" y="93" width="7" height="170" rx="3" fill="#EE424A"/>
+<text x="70" y="127" fill="#50D9F5" font-size="16" letter-spacing="4">IDENTITY // 001</text>
+<text x="70" y="196" fill="#F2F6FB" font-size="54" font-weight="bold">VITOR SCHEITEL</text>
+<text x="70" y="241" fill="#B8C6D8" font-size="19">BACKEND / AUTOMATION / AI SYSTEMS</text>
+<text x="70" y="272" fill="#B8C6D8" font-size="19">DEFENSIVE SECURITY // LEARNING</text>
+<path d="M70 297H720" stroke="url(#a)" stroke-width="2"/>
+<text x="70" y="329" fill="#7890A8" font-size="14">MISSION</text>
+<text x="70" y="356" fill="#E1E9F3" font-size="17">Build useful systems. Keep humans in control.</text>
+<text x="70" y="386" fill="#50D9F5" font-size="15">● OPEN TO INTERNSHIPS</text>
+<g transform="translate(930 230)">
+ <circle r="153" stroke="#4E687C" stroke-width="1" stroke-dasharray="3 16"/>
+ <circle r="132" stroke="#50D9F5" stroke-opacity=".2" stroke-width="1"/>
+ <g class="rot"><circle r="118" stroke="#EE424A" stroke-width="4" stroke-dasharray="170 28 70 20 200 60"/><circle r="105" stroke="#50D9F5" stroke-opacity=".5" stroke-width="2" stroke-dasharray="45 16"/></g>
+ <circle r="84" fill="#0B1823" stroke="#50D9F5" stroke-width="3"/>
+ <circle r="68" fill="#0B121C" stroke="#EE424A" stroke-width="7"/>
+ <g class="pulse"><circle r="50" fill="#50D9F5" opacity=".17" filter="url(#gl)"/><circle r="43" fill="#0C2C3B" stroke="#8FECFF" stroke-width="4"/></g>
+ <path d="M0-34L30 17H-30Z" stroke="#EE424A" stroke-width="4" fill="none" stroke-linejoin="round"/>
+ <circle r="9" fill="#D9F9FF"/>
+</g>
+<text x="930" y="406" fill="#7890A8" text-anchor="middle" font-size="12" letter-spacing="2">CORE // ONLINE</text>
+<text x="42" y="436" fill="#7890A8" font-size="13">caelum2888.dev // BUILD · TEST · REVIEW · ITERATE</text>
+<text x="1158" y="436" fill="#EE424A" text-anchor="end" font-size="13">SYSTEM STATUS: BUILDING</text>
 </svg>
