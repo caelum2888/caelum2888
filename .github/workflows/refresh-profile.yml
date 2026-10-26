@@ -2,6 +2,12 @@ name: Refresh public GitHub telemetry
 
 on:
   workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - README.md
+      - scripts/render_public_stats.py
+      - .github/workflows/refresh-profile.yml
   schedule:
     - cron: "17 7 * * *"
 
