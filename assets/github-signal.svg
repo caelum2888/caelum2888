@@ -1,14 +1,37 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1200" height="360" viewBox="0 0 1200 360" role="img">
 <title>CAELUM // PUBLIC GITHUB SIGNAL</title>
+<desc>GitHub public data snapshot: original public repositories, their stars and forks, and code language usage by bytes.</desc>
+<style>text{font-family:ui-monospace,Menlo,Consolas,monospace}</style>
 <rect width="1200" height="360" rx="20" fill="#0A111A"/>
-<rect x="1" y="1" width="1198" height="358" rx="19" stroke="#2A4254" stroke-width="2" fill="none"/>
-<g font-family="monospace">
-<text x="42" y="53" fill="#5ED5E6" font-size="19" letter-spacing="3">PUBLIC GITHUB // SYSTEM SIGNAL</text>
-<path d="M42 75H1158" stroke="#294253"/>
-<text x="42" y="142" fill="#E4ECF5" font-size="31">Connecting public repository telemetry</text>
-<text x="42" y="192" fill="#94A9B9" font-size="19">Original public repos / stars / forks / code languages</text>
-<rect x="42" y="230" width="1114" height="20" rx="6" fill="#152C3C"/>
-<rect x="42" y="230" width="360" height="20" rx="6" fill="#59CEDF"/>
-<text x="42" y="303" fill="#D7A166" font-size="17">DATA WILL APPEAR AFTER FIRST SUCCESSFUL WORKFLOW RUN</text>
-<text x="42" y="330" fill="#7D91A0" font-size="14">GitHub Actions / public repository API / daily UTC snapshot</text>
-</g></svg>
+<rect x="1" y="1" width="1198" height="358" rx="19" fill="none" stroke="#2A4254" stroke-width="2"/>
+<text x="42" y="52" fill="#5ED5E6" font-size="19" letter-spacing="3">PUBLIC GITHUB // SYSTEM SIGNAL</text>
+<text x="1154" y="50" fill="#8A9DAF" font-size="13" text-anchor="end">SOURCE // GITHUB PUBLIC API</text>
+<path d="M42 73H1158" stroke="#294253"/>
+<rect x="42" y="94" width="346" height="106" rx="12" fill="#101D29" stroke="#294455"/>
+<text x="64" y="131" fill="#8DA2B3" font-size="14" letter-spacing="1">ORIGINAL PUBLIC REPOS</text>
+<text x="64" y="180" fill="#EBF4FA" font-size="39" font-weight="700">3</text>
+<rect x="425" y="94" width="346" height="106" rx="12" fill="#101D29" stroke="#294455"/>
+<text x="447" y="131" fill="#8DA2B3" font-size="14" letter-spacing="1">TOTAL PUBLIC STARS</text>
+<text x="447" y="180" fill="#EBF4FA" font-size="39" font-weight="700">0</text>
+<rect x="809" y="94" width="346" height="106" rx="12" fill="#101D29" stroke="#294455"/>
+<text x="831" y="131" fill="#8DA2B3" font-size="14" letter-spacing="1">PUBLIC REPO FORKS</text>
+<text x="831" y="180" fill="#EBF4FA" font-size="39" font-weight="700">0</text>
+<text x="42" y="244" fill="#C8D4DF" font-size="16">LANGUAGES IN PUBLIC REPOSITORIES</text>
+<text x="1155" y="244" fill="#718A9E" font-size="12" text-anchor="end">BY GITHUB-REPORTED CODE BYTES</text>
+<rect x="42.0" y="262" width="813.9" height="22" fill="#5ED5E6"/>
+<rect x="855.9" y="262" width="205.5" height="22" fill="#D99456"/>
+<rect x="1061.4" y="262" width="43.0" height="22" fill="#CB626B"/>
+<rect x="1104.4" y="262" width="25.1" height="22" fill="#668BBF"/>
+<rect x="1129.5" y="262" width="24.2" height="22" fill="#8BA3B2"/>
+<rect x="1153.7" y="262" width="2.3" height="22" fill="#253444"/>
+<rect x="42" y="310" width="12" height="12" rx="2" fill="#5ED5E6"/>
+<text x="61" y="322" font-size="13" fill="#C8D4DF">Python 73%</text>
+<rect x="257" y="310" width="12" height="12" rx="2" fill="#D99456"/>
+<text x="276" y="322" font-size="13" fill="#C8D4DF">HTML 18%</text>
+<rect x="472" y="310" width="12" height="12" rx="2" fill="#CB626B"/>
+<text x="491" y="322" font-size="13" fill="#C8D4DF">CSS 4%</text>
+<rect x="687" y="310" width="12" height="12" rx="2" fill="#668BBF"/>
+<text x="706" y="322" font-size="13" fill="#C8D4DF">PowerShell 2%</text>
+<rect x="902" y="310" width="12" height="12" rx="2" fill="#8BA3B2"/>
+<text x="921" y="322" font-size="13" fill="#C8D4DF">JavaScript 2%</text>
+</svg>
