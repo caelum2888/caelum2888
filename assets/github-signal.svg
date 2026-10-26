@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1200" height="360" viewBox="0 0 1200 360" role="img">
 <title>CAELUM // PUBLIC GITHUB SIGNAL</title>
-<desc>GitHub public data snapshot: original public repositories, their stars and forks, and code language usage by bytes.</desc>
+<desc>Public GitHub code project count, recognized code languages, latest project push and language proportions by bytes.</desc>
 <style>text{font-family:ui-monospace,Menlo,Consolas,monospace}</style>
 <rect width="1200" height="360" rx="20" fill="#0A111A"/>
 <rect x="1" y="1" width="1198" height="358" rx="19" fill="none" stroke="#2A4254" stroke-width="2"/>
@@ -8,14 +8,14 @@
 <text x="1154" y="50" fill="#8A9DAF" font-size="13" text-anchor="end">SOURCE // GITHUB PUBLIC API</text>
 <path d="M42 73H1158" stroke="#294253"/>
 <rect x="42" y="94" width="346" height="106" rx="12" fill="#101D29" stroke="#294455"/>
-<text x="64" y="131" fill="#8DA2B3" font-size="14" letter-spacing="1">ORIGINAL PUBLIC REPOS</text>
-<text x="64" y="180" fill="#EBF4FA" font-size="39" font-weight="700">3</text>
+<text x="64" y="131" fill="#8DA2B3" font-size="14" letter-spacing="1">PUBLIC CODE PROJECTS</text>
+<text x="64" y="180" fill="#EBF4FA" font-size="39" font-weight="700">2</text>
 <rect x="425" y="94" width="346" height="106" rx="12" fill="#101D29" stroke="#294455"/>
-<text x="447" y="131" fill="#8DA2B3" font-size="14" letter-spacing="1">TOTAL PUBLIC STARS</text>
-<text x="447" y="180" fill="#EBF4FA" font-size="39" font-weight="700">0</text>
+<text x="447" y="131" fill="#8DA2B3" font-size="14" letter-spacing="1">LANGUAGES DETECTED</text>
+<text x="447" y="180" fill="#EBF4FA" font-size="39" font-weight="700">8</text>
 <rect x="809" y="94" width="346" height="106" rx="12" fill="#101D29" stroke="#294455"/>
-<text x="831" y="131" fill="#8DA2B3" font-size="14" letter-spacing="1">PUBLIC REPO FORKS</text>
-<text x="831" y="180" fill="#EBF4FA" font-size="39" font-weight="700">0</text>
+<text x="831" y="131" fill="#8DA2B3" font-size="14" letter-spacing="1">LAST PROJECT PUSH</text>
+<text x="831" y="180" fill="#EBF4FA" font-size="39" font-weight="700">2026-09-25</text>
 <text x="42" y="244" fill="#C8D4DF" font-size="16">LANGUAGES IN PUBLIC REPOSITORIES</text>
 <text x="1155" y="244" fill="#718A9E" font-size="12" text-anchor="end">BY GITHUB-REPORTED CODE BYTES</text>
 <rect x="42.0" y="262" width="813.9" height="22" fill="#5ED5E6"/>
