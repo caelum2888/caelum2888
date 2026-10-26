@@ -7,7 +7,6 @@ language-classified public repository code, not developer proficiency.
 """
 from __future__ import annotations
 
-import datetime as dt
 import os
 from pathlib import Path
 from urllib.parse import quote
@@ -56,7 +55,7 @@ def compact(number: int) -> str:
     return f"{number:,}"
 
 
-def render(repos, language_totals, timestamp):
+def render(repos, language_totals):
     stars = sum(int(item.get("stargazers_count") or 0) for item in repos)
     forks = sum(int(item.get("forks_count") or 0) for item in repos)
     items = sorted(language_totals.items(), key=lambda pair: pair[1], reverse=True)[:5]
@@ -70,7 +69,7 @@ def render(repos, language_totals, timestamp):
         '<rect width="1200" height="360" rx="20" fill="#0A111A"/>',
         '<rect x="1" y="1" width="1198" height="358" rx="19" fill="none" stroke="#2A4254" stroke-width="2"/>',
         '<text x="42" y="52" fill="#5ED5E6" font-size="19" letter-spacing="3">PUBLIC GITHUB // SYSTEM SIGNAL</text>',
-        f'<text x="1154" y="50" fill="#8A9DAF" font-size="13" text-anchor="end">SYNCED {escape(timestamp)}</text>',
+        '<text x="1154" y="50" fill="#8A9DAF" font-size="13" text-anchor="end">SOURCE // GITHUB PUBLIC API</text>',
         '<path d="M42 73H1158" stroke="#294253"/>',
     ]
     for x, value, title in (
@@ -118,9 +117,8 @@ def main():
         name = quote(item["name"], safe="")
         for language, count in api(f"/repos/{OWNER}/{name}/languages").items():
             languages[language] = languages.get(language, 0) + int(count)
-    now = dt.datetime.now(dt.timezone.utc).strftime("%Y-%m-%d %H:%M UTC")
     OUT.parent.mkdir(parents=True, exist_ok=True)
-    OUT.write_text(render(repos, languages, now), encoding="utf-8")
+    OUT.write_text(render(repos, languages), encoding="utf-8")
     print(f"Rendered {len(repos)} public original repositories to {OUT}")
 
 
