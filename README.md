@@ -6,7 +6,7 @@ I build backend systems and automation for workflows that were living in forms a
 
 I'm early in my career and looking for an **internship** in backend, infrastructure, automation or defensive security. I'm deliberately building toward defensive security while backend and automation remain my strongest public proof — I'd rather show the work than borrow a title I haven't earned yet.
 
-Some of what I build is private. What's below is what I can show in detail.
+Some systems I work on are private. The public projects below can be inspected; selected private work is summarized later without exposing source or operational data.
 
 <p align="center">
   <img src="./assets/system-modules.svg" width="100%" alt="CAELUM system modules: backend, automation, AI guardrails and defensive security learning" />
@@ -15,14 +15,14 @@ Some of what I build is private. What's below is what I can show in detail.
 ## Public GitHub signal
 
 <p align="center">
-  <img src="./assets/github-signal.svg" width="100%" alt="GitHub public engineering snapshot: public code projects, code languages detected, latest project push and language proportions" />
+  <img src="./assets/github-signal.svg" width="100%" alt="GitHub public engineering snapshot: public code projects, detected code languages, most represented language and proportions by source-code bytes" />
 </p>
 
-<sub>GitHub API data, not fabricated activity: public original repositories only; latest project push excludes this profile repo, and language proportions are code bytes rather than skill ratings. [Telemetry source](./scripts/render_public_stats.py) · [refresh workflow](./.github/workflows/refresh-profile.yml). The graphic is regenerated when public data changes.</sub>
+<sub>Verified public GitHub data: only original public **code projects** are included (not this profile repository or private work). Language proportions reflect GitHub-reported code bytes, not proficiency or private coding activity. [Source](./scripts/render_public_stats.py) · [Automatic refresh](./.github/workflows/refresh-profile.yml).</sub>
 
 ---
 
-## Systems
+## Public systems // inspect the code
 
 <a href="https://github.com/caelum2888/workshop-manager">
   <img src="./assets/card-workshop.svg" width="100%" alt="Workshop Manager: lesson, attendance, metrics, report draft, human review. FastAPI, SQLAlchemy 2, Alembic, pytest, 200+ tests." />
@@ -38,6 +38,20 @@ Some of what I build is private. What's below is what I can show in detail.
 | --- | --- |
 | Workshop Manager | [`app/services/`](https://github.com/caelum2888/workshop-manager/tree/main/app/services) (business rules live here, not in the routers) · [`tests/test_tenant_isolation.py`](https://github.com/caelum2888/workshop-manager/blob/main/tests/test_tenant_isolation.py) · [`app/session.py`](https://github.com/caelum2888/workshop-manager/blob/main/app/session.py) |
 | Maestro | [`AGT-002` prompt-injection policy](https://github.com/caelum2888/Maestro-Segundo-Cerebro/blob/main/21%20Pol%C3%ADticas%20e%20Pr%C3%A1ticas%20de%20Desenvolvimento/Pol%C3%ADticas%20da%20Empresa/05-AGT-002-Prompt-Injection.md) · [`CHK-002` pull request gate](https://github.com/caelum2888/Maestro-Segundo-Cerebro/blob/main/23%20Checklists%20e%20Gates/CHK-002-Pull-Request.md) · [decision log](https://github.com/caelum2888/Maestro-Segundo-Cerebro/blob/main/01%20Projeto%20Maestro/15%20Decis%C3%B5es/REGISTRO-DE-DECISOES.md) |
+
+---
+
+## Private work // behind the console
+
+The public GitHub graph is only part of my engineering work. These are **high-level summaries of private systems**, not claims of public code or permission to disclose operational details.
+
+<p align="center">
+  <img src="./assets/private-systems.svg" width="100%" alt="Private engineering work: Operations OS for structured workflow coordination; Agent Command for local read-only AI session observability; Social Copy for structured API-based content generation and controlled error handling." />
+</p>
+
+**Operations OS** explores dependable orchestration of recurring work: state, review, approvals and traceable outcomes. **Agent Command** is a local observability and advisory interface for coding-agent sessions; it doesn't secretly execute agents. **Social Copy** is an API-backed text-generation tool with structured outputs and conservative failure handling.
+
+All three have **private source code**. Their descriptions deliberately exclude employer-specific configuration, data, credentials and unpublished implementation details. The public projects above are the best place to inspect how I write software.
 
 ---
 
