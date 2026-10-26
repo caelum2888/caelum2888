@@ -8,6 +8,10 @@ I'm early in my career and looking for an **internship** in backend, infrastruct
 
 Some of what I build is private. What's below is what I can show in detail.
 
+<p align="center">
+  <img src="./assets/system-modules.svg" width="100%" alt="CAELUM system modules: backend, automation, AI guardrails and defensive security learning" />
+</p>
+
 ---
 
 ## Systems
