@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="360" viewBox="0 0 1200 360" role="img">
+<title>CAELUM // PUBLIC GITHUB SIGNAL</title>
+<rect width="1200" height="360" rx="20" fill="#0A111A"/>
+<rect x="1" y="1" width="1198" height="358" rx="19" stroke="#2A4254" stroke-width="2" fill="none"/>
+<g font-family="monospace">
+<text x="42" y="53" fill="#5ED5E6" font-size="19" letter-spacing="3">PUBLIC GITHUB // SYSTEM SIGNAL</text>
+<path d="M42 75H1158" stroke="#294253"/>
+<text x="42" y="142" fill="#E4ECF5" font-size="31">Connecting public repository telemetry</text>
+<text x="42" y="192" fill="#94A9B9" font-size="19">Original public repos / stars / forks / code languages</text>
+<rect x="42" y="230" width="1114" height="20" rx="6" fill="#152C3C"/>
+<rect x="42" y="230" width="360" height="20" rx="6" fill="#59CEDF"/>
+<text x="42" y="303" fill="#D7A166" font-size="17">DATA WILL APPEAR AFTER FIRST SUCCESSFUL WORKFLOW RUN</text>
+<text x="42" y="330" fill="#7D91A0" font-size="14">GitHub Actions / public repository API / daily UTC snapshot</text>
+</g></svg>
