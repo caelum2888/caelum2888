@@ -1,44 +1,89 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 460" width="1200" height="460" role="img" aria-label="CAELUM Systems — Vitor Scheitel. Engineering systems in a Stark inspired HUD">
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="550" viewBox="0 0 1200 550" role="img" aria-labelledby="title description">
+<title id="title">CAELUM SYSTEMS - Vitor Scheitel</title>
+<desc id="description">A cinematic technical HUD inspired by futuristic engineering laboratories. Vitor Scheitel - backend systems, automation, AI governance, and learning defensive security.</desc>
 <defs>
- <linearGradient id="b" x2="1" y2="1"><stop stop-color="#0C1521"/><stop offset="1" stop-color="#070A10"/></linearGradient>
- <linearGradient id="a"><stop stop-color="#EE424A"/><stop offset=".6" stop-color="#EE424A"/><stop offset="1" stop-color="#61DDFF"/></linearGradient>
- <filter id="gl"><feGaussianBlur stdDeviation="7"/></filter>
+ <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#0B1623"/><stop offset=".52" stop-color="#080D16"/><stop offset="1" stop-color="#0D1820"/></linearGradient>
+ <linearGradient id="fade" x1="0" y1="0" x2="1" y2="0"><stop stop-color="#08131D" stop-opacity=".96"/><stop offset=".63" stop-color="#08131D" stop-opacity=".65"/><stop offset="1" stop-color="#08131D" stop-opacity="0"/></linearGradient>
+ <radialGradient id="warm"><stop stop-color="#FBEBC4" stop-opacity=".58"/><stop offset=".24" stop-color="#F0A44D" stop-opacity=".35"/><stop offset=".65" stop-color="#F0A44D" stop-opacity=".07"/><stop offset="1" stop-color="#F0A44D" stop-opacity="0"/></radialGradient>
+ <radialGradient id="core"><stop stop-color="#FAF4E0"/><stop offset=".2" stop-color="#FCE6B0"/><stop offset=".48" stop-color="#EA9B3F"/><stop offset=".8" stop-color="#395E66"/><stop offset="1" stop-color="#101C27"/></radialGradient>
+ <filter id="glow" x="-70%" y="-70%" width="240%" height="240%"><feGaussianBlur stdDeviation="13"/></filter>
+ <pattern id="lines" width="55" height="55" patternUnits="userSpaceOnUse"><path d="M55 0H0V55" fill="none" stroke="#62BDD1" stroke-width=".65" opacity=".17"/></pattern>
+ <clipPath id="frame"><rect x="1" y="1" width="1198" height="548" rx="22"/></clipPath>
  <style>
- text{font-family:ui-monospace,Menlo,Consolas,monospace}
- .pulse{animation:p 4s ease-in-out infinite;transform-origin:930px 230px}.rot{animation:r 35s linear infinite;transform-origin:930px 230px}
- @keyframes p{50%{opacity:.45}}@keyframes r{to{transform:rotate(360deg)}}
- @media(prefers-reduced-motion:reduce){.pulse,.rot{animation:none}}
+ text{font-family:ui-monospace, "SFMono-Regular", Menlo, Consolas, "Liberation Mono", monospace;}
+ .spin{transform-origin:965px 260px;animation:spin 60s linear infinite;}
+ .breathe{transform-origin:965px 260px;animation:breathe 4s ease-in-out infinite;}
+ .scan{animation:scan 6s ease-in-out infinite alternate;}
+ @keyframes spin{to{transform:rotate(360deg)}}@keyframes breathe{50%{opacity:.48}}@keyframes scan{to{opacity:.2}}
+ @media(prefers-reduced-motion:reduce){.spin,.breathe,.scan{animation:none!important}}
  </style>
 </defs>
-<rect width="1200" height="460" rx="22" fill="url(#b)"/>
-<rect x="1" y="1" width="1198" height="458" rx="21" stroke="#263749" stroke-width="2"/>
-<path d="M0 56H1200 M0 408H1200" stroke="#263749"/>
-<circle cx="33" cy="28" r="5" fill="#EA555C"/><circle cx="52" cy="28" r="5" fill="#E9B45C"/><circle cx="71" cy="28" r="5" fill="#50D9F5"/>
-<text x="102" y="34" font-size="14" fill="#8B9CB0" letter-spacing="2">CAELUM // SYSTEMS</text><text x="1160" y="34" font-size="13" fill="#50D9F5" text-anchor="end">PERSONAL ENGINEERING CONSOLE</text>
-<g opacity=".16" stroke="#50D9F5" stroke-width="1">
- <path d="M35 90H770 M35 140H770 M35 190H770 M35 240H770 M35 290H770 M35 340H770 M35 390H770"/>
- <path d="M120 70V400 M220 70V400 M320 70V400 M420 70V400 M520 70V400 M620 70V400 M720 70V400"/>
+<g clip-path="url(#frame)">
+<rect width="1200" height="550" fill="url(#bg)"/>
+<rect x="0" y="0" width="1200" height="550" fill="url(#lines)"/>
+<!-- Layered engineering lab panorama -->
+<g fill="none" stroke="#276074" stroke-width="1" opacity=".24">
+ <path d="M0 400L700 155L1200 405M0 464L700 230L1200 464M0 510L700 292L1200 510"/>
+ <path d="M40 550L885 60M242 550L940 60M485 550L995 60M730 550L1050 60M988 550L1105 60"/>
+ <path d="M650 68L650 495M705 68L705 495M764 68L764 495M1192 68L1192 495"/>
 </g>
-<rect x="42" y="93" width="7" height="170" rx="3" fill="#EE424A"/>
-<text x="70" y="127" fill="#50D9F5" font-size="16" letter-spacing="4">IDENTITY // 001</text>
-<text x="70" y="196" fill="#F2F6FB" font-size="54" font-weight="bold">VITOR SCHEITEL</text>
-<text x="70" y="241" fill="#B8C6D8" font-size="19">BACKEND / AUTOMATION / AI SYSTEMS</text>
-<text x="70" y="272" fill="#B8C6D8" font-size="19">DEFENSIVE SECURITY // LEARNING</text>
-<path d="M70 297H720" stroke="url(#a)" stroke-width="2"/>
-<text x="70" y="329" fill="#7890A8" font-size="14">MISSION</text>
-<text x="70" y="356" fill="#E1E9F3" font-size="17">Build useful systems. Keep humans in control.</text>
-<text x="70" y="386" fill="#50D9F5" font-size="15">● OPEN TO INTERNSHIPS</text>
-<g transform="translate(930 230)">
- <circle r="153" stroke="#4E687C" stroke-width="1" stroke-dasharray="3 16"/>
- <circle r="132" stroke="#50D9F5" stroke-opacity=".2" stroke-width="1"/>
- <g class="rot"><circle r="118" stroke="#EE424A" stroke-width="4" stroke-dasharray="170 28 70 20 200 60"/><circle r="105" stroke="#50D9F5" stroke-opacity=".5" stroke-width="2" stroke-dasharray="45 16"/></g>
- <circle r="84" fill="#0B1823" stroke="#50D9F5" stroke-width="3"/>
- <circle r="68" fill="#0B121C" stroke="#EE424A" stroke-width="7"/>
- <g class="pulse"><circle r="50" fill="#50D9F5" opacity=".17" filter="url(#gl)"/><circle r="43" fill="#0C2C3B" stroke="#8FECFF" stroke-width="4"/></g>
- <path d="M0-34L30 17H-30Z" stroke="#EE424A" stroke-width="4" fill="none" stroke-linejoin="round"/>
- <circle r="9" fill="#D9F9FF"/>
+<g opacity=".50" stroke="#2A9FBC" fill="#0B1F2B">
+ <path d="M700 105L830 80L830 353L700 383Z" opacity=".22"/>
+ <path d="M1102 96L1198 126V402L1102 366Z" opacity=".27"/>
+ <path d="M790 135L852 122V347L790 360Z" stroke-width="1" opacity=".65"/>
+ <path d="M1092 143L1160 159V348L1092 335Z" opacity=".65"/>
 </g>
-<text x="930" y="406" fill="#7890A8" text-anchor="middle" font-size="12" letter-spacing="2">CORE // ONLINE</text>
-<text x="42" y="436" fill="#7890A8" font-size="13">caelum2888.dev // BUILD · TEST · REVIEW · ITERATE</text>
-<text x="1158" y="436" fill="#EE424A" text-anchor="end" font-size="13">SYSTEM STATUS: BUILDING</text>
+<path d="M735 93L780 93" stroke="#35BDD5" opacity="0.48" stroke-width="1"/><path d="M747 117L797 117" stroke="#35BDD5" opacity="0.2" stroke-width="1"/><path d="M759 141L814 141" stroke="#35BDD5" opacity="0.2" stroke-width="1"/><path d="M735 165L831 165" stroke="#35BDD5" opacity="0.48" stroke-width="1"/><path d="M747 189L848 189" stroke="#35BDD5" opacity="0.2" stroke-width="1"/><path d="M759 213L780 213" stroke="#35BDD5" opacity="0.2" stroke-width="1"/><path d="M735 237L797 237" stroke="#35BDD5" opacity="0.48" stroke-width="1"/><path d="M747 261L814 261" stroke="#35BDD5" opacity="0.2" stroke-width="1"/><path d="M759 285L831 285" stroke="#35BDD5" opacity="0.2" stroke-width="1"/><path d="M735 309L848 309" stroke="#35BDD5" opacity="0.48" stroke-width="1"/><path d="M747 333L780 333" stroke="#35BDD5" opacity="0.2" stroke-width="1"/><path d="M759 357L797 357" stroke="#35BDD5" opacity="0.2" stroke-width="1"/><path d="M735 381L814 381" stroke="#35BDD5" opacity="0.48" stroke-width="1"/>
+<!-- Cyan telemetry behind the core -->
+<g stroke="#5CD9EE" stroke-width="1.2" fill="none" opacity=".44">
+ <path d="M805 129L865 129L886 149H1051L1077 122H1138"/>
+ <path d="M804 377H851L879 356H1067L1091 378H1153"/>
+ <path d="M752 316H813L826 329H857"/>
+ <path d="M1090 227H1132L1158 201H1198"/>
+ <path d="M1089 302H1155L1180 328H1199"/>
+ <path d="M777.0 449.0 L784.0 458.6 L791.0 458.9 L798.0 453.8 L805.0 452.8 L812.0 455.3 L819.0 452.1 L826.0 442.0 L833.0 435.4 L840.0 439.5 L847.0 447.4 L854.0 449.4 L861.0 448.0 L868.0 451.9 L875.0 460.2 L882.0 462.1 L889.0 453.8 L896.0 444.7 L903.0 443.4 L910.0 445.7 L917.0 443.1 L924.0 438.1 L931.0 440.6 L938.0 451.3 L945.0 459.3 L952.0 457.6 L959.0 453.0 L966.0 453.7 L973.0 455.8 L980.0 450.5 L987.0 439.9 L994.0 435.6 L1001.0 441.3 L1008.0 448.2 L1015.0 448.7 L1022.0 447.9 L1029.0 453.6 L1036.0 461.5 L1043.0 461.1 L1050.0 451.6 L1057.0 444.0 L1064.0 444.4 L1071.0 445.9 L1078.0 441.8 L1085.0 437.5 L1092.0 442.3 L1099.0 453.5 L1106.0 459.4 L1113.0 456.3 L1120.0 452.7 L1127.0 454.7 L1134.0 455.8"/>
+</g>
+<!-- Energy field -->
+<circle cx="965" cy="260" r="247" fill="url(#warm)" opacity=".65"/>
+<circle cx="965" cy="260" r="121" stroke="#EDA04E" stroke-width="4" fill="none" opacity=".35" filter="url(#glow)"/>
+<g class="spin"><path d="M1089.0 260.0L1123.0 260.0" stroke="#F4A94B" stroke-width="2" opacity="0.78"/><path d="M1099.7 268.8L1109.7 269.5" stroke="#4DABC1" stroke-width="1" opacity="0.35"/><path d="M1098.8 277.6L1108.8 278.9" stroke="#4DABC1" stroke-width="1" opacity="0.35"/><path d="M1097.4 286.3L1107.2 288.3" stroke="#4DABC1" stroke-width="1" opacity="0.35"/><path d="M1095.4 294.9L1105.1 297.5" stroke="#4DABC1" stroke-width="1" opacity="0.35"/><path d="M1092.8 303.4L1102.3 306.6" stroke="#4DABC1" stroke-width="1" opacity="0.35"/><path d="M1089.7 311.7L1099.0 315.5" stroke="#4DABC1" stroke-width="1" opacity="0.35"/><path d="M1086.1 319.7L1095.0 324.1" stroke="#4DABC1" stroke-width="1" opacity="0.35"/><path d="M1072.4 322.0L1101.8 339.0" stroke="#F4A94B" stroke-width="2" opacity="0.78"/><path d="M1077.2 335.0L1085.6 340.6" stroke="#4DABC1" stroke-width="1" opacity="0.35"/><path d="M1072.1 342.2L1080.0 348.3" stroke="#4DABC1" stroke-width="1" opacity="0.35"/><path d="M1066.5 349.0L1074.0 355.6" stroke="#4DABC1" stroke-width="1" opacity="0.35"/><path d="M1060.5 355.5L1067.5 362.5" stroke="#4DABC1" stroke-width="1" opacity="0.35"/><path d="M1054.0 361.5L1060.6 369.0" stroke="#4DABC1" stroke-width="1" opacity="0.35"/><path d="M1047.2 367.1L1053.3 375.0" stroke="#4DABC1" stroke-width="1" opacity="0.35"/><path d="M1040.0 372.2L1045.6 380.6" stroke="#4DABC1" stroke-width="1" opacity="0.35"/><path d="M1027.0 367.4L1044.0 396.8" stroke="#F4A94B" stroke-width="2" opacity="0.78"/><path d="M1024.7 381.1L1029.1 390.0" stroke="#4DABC1" stroke-width="1" opacity="0.35"/><path d="M1016.7 384.7L1020.5 394.0" stroke="#4DABC1" stroke-width="1" opacity="0.35"/><path d="M1008.4 387.8L1011.6 397.3" stroke="#4DABC1" stroke-width="1" opacity="0.35"/><path d="M999.9 390.4L1002.5 400.1" stroke="#4DABC1" stroke-width="1" opacity="0.35"/><path d="M991.3 392.4L993.3 402.2" stroke="#4DABC1" stroke-width="1" opacity="0.35"/><path d="M982.6 393.8L983.9 403.8" stroke="#4DABC1" stroke-width="1" opacity="0.35"/><path d="M973.8 394.7L974.5 404.7" stroke="#4DABC1" stroke-width="1" opacity="0.35"/><path d="M965.0 384.0L965.0 418.0" stroke="#F4A94B" stroke-width="2" opacity="0.78"/><path d="M956.2 394.7L955.5 404.7" stroke="#4DABC1" stroke-width="1" opacity="0.35"/><path d="M947.4 393.8L946.1 403.8" stroke="#4DABC1" stroke-width="1" opacity="0.35"/><path d="M938.7 392.4L936.7 402.2" stroke="#4DABC1" stroke-width="1" opacity="0.35"/><path d="M930.1 390.4L927.5 400.1" stroke="#4DABC1" stroke-width="1" opacity="0.35"/><path d="M921.6 387.8L918.4 397.3" stroke="#4DABC1" stroke-width="1" opacity="0.35"/><path d="M913.3 384.7L909.5 394.0" stroke="#4DABC1" stroke-width="1" opacity="0.35"/><path d="M905.3 381.1L900.9 390.0" stroke="#4DABC1" stroke-width="1" opacity="0.35"/><path d="M903.0 367.4L886.0 396.8" stroke="#F4A94B" stroke-width="2" opacity="0.78"/><path d="M890.0 372.2L884.4 380.6" stroke="#4DABC1" stroke-width="1" opacity="0.35"/><path d="M882.8 367.1L876.7 375.0" stroke="#4DABC1" stroke-width="1" opacity="0.35"/><path d="M876.0 361.5L869.4 369.0" stroke="#4DABC1" stroke-width="1" opacity="0.35"/><path d="M869.5 355.5L862.5 362.5" stroke="#4DABC1" stroke-width="1" opacity="0.35"/><path d="M863.5 349.0L856.0 355.6" stroke="#4DABC1" stroke-width="1" opacity="0.35"/><path d="M857.9 342.2L850.0 348.3" stroke="#4DABC1" stroke-width="1" opacity="0.35"/><path d="M852.8 335.0L844.4 340.6" stroke="#4DABC1" stroke-width="1" opacity="0.35"/><path d="M857.6 322.0L828.2 339.0" stroke="#F4A94B" stroke-width="2" opacity="0.78"/><path d="M843.9 319.7L835.0 324.1" stroke="#4DABC1" stroke-width="1" opacity="0.35"/><path d="M840.3 311.7L831.0 315.5" stroke="#4DABC1" stroke-width="1" opacity="0.35"/><path d="M837.2 303.4L827.7 306.6" stroke="#4DABC1" stroke-width="1" opacity="0.35"/><path d="M834.6 294.9L824.9 297.5" stroke="#4DABC1" stroke-width="1" opacity="0.35"/><path d="M832.6 286.3L822.8 288.3" stroke="#4DABC1" stroke-width="1" opacity="0.35"/><path d="M831.2 277.6L821.2 278.9" stroke="#4DABC1" stroke-width="1" opacity="0.35"/><path d="M830.3 268.8L820.3 269.5" stroke="#4DABC1" stroke-width="1" opacity="0.35"/><path d="M841.0 260.0L807.0 260.0" stroke="#F4A94B" stroke-width="2" opacity="0.78"/><path d="M830.3 251.2L820.3 250.5" stroke="#4DABC1" stroke-width="1" opacity="0.35"/><path d="M831.2 242.4L821.2 241.1" stroke="#4DABC1" stroke-width="1" opacity="0.35"/><path d="M832.6 233.7L822.8 231.7" stroke="#4DABC1" stroke-width="1" opacity="0.35"/><path d="M834.6 225.1L824.9 222.5" stroke="#4DABC1" stroke-width="1" opacity="0.35"/><path d="M837.2 216.6L827.7 213.4" stroke="#4DABC1" stroke-width="1" opacity="0.35"/><path d="M840.3 208.3L831.0 204.5" stroke="#4DABC1" stroke-width="1" opacity="0.35"/><path d="M843.9 200.3L835.0 195.9" stroke="#4DABC1" stroke-width="1" opacity="0.35"/><path d="M857.6 198.0L828.2 181.0" stroke="#F4A94B" stroke-width="2" opacity="0.78"/><path d="M852.8 185.0L844.4 179.4" stroke="#4DABC1" stroke-width="1" opacity="0.35"/><path d="M857.9 177.8L850.0 171.7" stroke="#4DABC1" stroke-width="1" opacity="0.35"/><path d="M863.5 171.0L856.0 164.4" stroke="#4DABC1" stroke-width="1" opacity="0.35"/><path d="M869.5 164.5L862.5 157.5" stroke="#4DABC1" stroke-width="1" opacity="0.35"/><path d="M876.0 158.5L869.4 151.0" stroke="#4DABC1" stroke-width="1" opacity="0.35"/><path d="M882.8 152.9L876.7 145.0" stroke="#4DABC1" stroke-width="1" opacity="0.35"/><path d="M890.0 147.8L884.4 139.4" stroke="#4DABC1" stroke-width="1" opacity="0.35"/><path d="M903.0 152.6L886.0 123.2" stroke="#F4A94B" stroke-width="2" opacity="0.78"/><path d="M905.3 138.9L900.9 130.0" stroke="#4DABC1" stroke-width="1" opacity="0.35"/><path d="M913.3 135.3L909.5 126.0" stroke="#4DABC1" stroke-width="1" opacity="0.35"/><path d="M921.6 132.2L918.4 122.7" stroke="#4DABC1" stroke-width="1" opacity="0.35"/><path d="M930.1 129.6L927.5 119.9" stroke="#4DABC1" stroke-width="1" opacity="0.35"/><path d="M938.7 127.6L936.7 117.8" stroke="#4DABC1" stroke-width="1" opacity="0.35"/><path d="M947.4 126.2L946.1 116.2" stroke="#4DABC1" stroke-width="1" opacity="0.35"/><path d="M956.2 125.3L955.5 115.3" stroke="#4DABC1" stroke-width="1" opacity="0.35"/><path d="M965.0 136.0L965.0 102.0" stroke="#F4A94B" stroke-width="2" opacity="0.78"/><path d="M973.8 125.3L974.5 115.3" stroke="#4DABC1" stroke-width="1" opacity="0.35"/><path d="M982.6 126.2L983.9 116.2" stroke="#4DABC1" stroke-width="1" opacity="0.35"/><path d="M991.3 127.6L993.3 117.8" stroke="#4DABC1" stroke-width="1" opacity="0.35"/><path d="M999.9 129.6L1002.5 119.9" stroke="#4DABC1" stroke-width="1" opacity="0.35"/><path d="M1008.4 132.2L1011.6 122.7" stroke="#4DABC1" stroke-width="1" opacity="0.35"/><path d="M1016.7 135.3L1020.5 126.0" stroke="#4DABC1" stroke-width="1" opacity="0.35"/><path d="M1024.7 138.9L1029.1 130.0" stroke="#4DABC1" stroke-width="1" opacity="0.35"/><path d="M1027.0 152.6L1044.0 123.2" stroke="#F4A94B" stroke-width="2" opacity="0.78"/><path d="M1040.0 147.8L1045.6 139.4" stroke="#4DABC1" stroke-width="1" opacity="0.35"/><path d="M1047.2 152.9L1053.3 145.0" stroke="#4DABC1" stroke-width="1" opacity="0.35"/><path d="M1054.0 158.5L1060.6 151.0" stroke="#4DABC1" stroke-width="1" opacity="0.35"/><path d="M1060.5 164.5L1067.5 157.5" stroke="#4DABC1" stroke-width="1" opacity="0.35"/><path d="M1066.5 171.0L1074.0 164.4" stroke="#4DABC1" stroke-width="1" opacity="0.35"/><path d="M1072.1 177.8L1080.0 171.7" stroke="#4DABC1" stroke-width="1" opacity="0.35"/><path d="M1077.2 185.0L1085.6 179.4" stroke="#4DABC1" stroke-width="1" opacity="0.35"/><path d="M1072.4 198.0L1101.8 181.0" stroke="#F4A94B" stroke-width="2" opacity="0.78"/><path d="M1086.1 200.3L1095.0 195.9" stroke="#4DABC1" stroke-width="1" opacity="0.35"/><path d="M1089.7 208.3L1099.0 204.5" stroke="#4DABC1" stroke-width="1" opacity="0.35"/><path d="M1092.8 216.6L1102.3 213.4" stroke="#4DABC1" stroke-width="1" opacity="0.35"/><path d="M1095.4 225.1L1105.1 222.5" stroke="#4DABC1" stroke-width="1" opacity="0.35"/><path d="M1097.4 233.7L1107.2 231.7" stroke="#4DABC1" stroke-width="1" opacity="0.35"/><path d="M1098.8 242.4L1108.8 241.1" stroke="#4DABC1" stroke-width="1" opacity="0.35"/><path d="M1099.7 251.2L1109.7 250.5" stroke="#4DABC1" stroke-width="1" opacity="0.35"/></g>
+<circle cx="965" cy="260" r="70" fill="none" stroke="#F2A845" stroke-width="1.5" opacity="0.42" stroke-dasharray="18 8 4 8"/><circle cx="965" cy="260" r="90" fill="none" stroke="#45CBE3" stroke-width="0.8" opacity="0.38" stroke-dasharray="2 12"/><circle cx="965" cy="260" r="110" fill="none" stroke="#45CBE3" stroke-width="0.8" opacity="0.33" stroke-dasharray="18 8 4 8"/><circle cx="965" cy="260" r="130" fill="none" stroke="#F2A845" stroke-width="1.5" opacity="0.28" stroke-dasharray="2 12"/><circle cx="965" cy="260" r="150" fill="none" stroke="#45CBE3" stroke-width="0.8" opacity="0.24" stroke-dasharray="18 8 4 8"/><circle cx="965" cy="260" r="170" fill="none" stroke="#45CBE3" stroke-width="0.8" opacity="0.20" stroke-dasharray="2 12"/><circle cx="965" cy="260" r="190" fill="none" stroke="#F2A845" stroke-width="1.5" opacity="0.15" stroke-dasharray="18 8 4 8"/>
+<circle cx="965" cy="260" r="120" fill="#0D2731" fill-opacity=".20" stroke="#C87D3A" stroke-width="1" stroke-dasharray="100 14 3 14"/>
+<circle cx="965" cy="260" r="100" stroke="#45D2E8" stroke-width="1" opacity=".55"/>
+<g class="spin" opacity=".76">
+ <path d="M965 179L1035 220L1035 300L965 341L895 300L895 220Z" fill="none" stroke="#EA9D52" stroke-width="2"/>
+ <path d="M965 196L1020 228L1020 292L965 324L910 292L910 228Z" fill="none" stroke="#53CFDF" stroke-width="1"/>
+</g>
+<circle cx="965" cy="260" r="68" fill="#EBA449" opacity=".21" filter="url(#glow)" class="breathe"/>
+<circle cx="965" cy="260" r="54" fill="url(#core)" stroke="#F4BC69" stroke-width="2"/>
+<circle cx="965" cy="260" r="33" fill="none" stroke="#132A32" stroke-width="9" opacity=".90"/>
+<path d="M965 229L990 274H940Z" fill="none" stroke="#102632" stroke-width="5" stroke-linejoin="round" opacity=".75"/>
+<circle cx="965" cy="260" r="9" fill="#FFF4D0"/>
+<path d="M813 260H850M1081 260H1118M965 106V143M965 377V414" stroke="#F9C67B" opacity=".7" stroke-width="1.5"/>
+<!-- Frosted text-side surface -->
+<rect x="0" y="58" width="801" height="436" fill="url(#fade)"/>
+<rect x="1" y="1" width="1198" height="548" rx="22" fill="none" stroke="#476477" stroke-width="1.8"/>
+<path d="M0 59H1200M0 498H1200" stroke="#2A4654" stroke-width="1.4"/>
+<circle cx="32" cy="30" r="5" fill="#BB5A55"/><circle cx="50" cy="30" r="5" fill="#DCB060"/><circle cx="68" cy="30" r="5" fill="#56C4D5"/>
+<text x="90" y="36" fill="#B9CAD4" font-size="15" letter-spacing="2.5">CAELUM // SYSTEMS</text>
+<text x="1164" y="36" fill="#5FCFE5" font-size="12" text-anchor="end" letter-spacing="2">PERSONAL ENGINEERING INTERFACE</text>
+<path d="M48 109V394" stroke="#D17E42" stroke-width="3"/>
+<path d="M48 109H99M48 394H99" stroke="#D17E42" stroke-width="3"/>
+<text x="82" y="123" fill="#67D5E6" font-size="16" letter-spacing="3">OPERATOR / 001</text>
+<text x="82" y="193" fill="#F3F6F8" font-size="57" font-weight="700" letter-spacing="-2">VITOR SCHEITEL</text>
+<text x="82" y="232" fill="#D7E4EB" font-size="22">BACKEND  /  AUTOMATION  /  AI SYSTEMS</text>
+<text x="82" y="266" fill="#AFBFCF" font-size="19">DEFENSIVE SECURITY // LEARNING TRACK</text>
+<path d="M82 299H703" stroke="#4DBDD2" opacity=".65" stroke-width="1.5"/>
+<text x="82" y="329" fill="#7D97A9" font-size="15" letter-spacing="2">DIRECTIVE</text>
+<text x="82" y="358" fill="#E2EAF0" font-size="19">Build useful software. Keep humans in control.</text>
+<rect x="82" y="377" width="253" height="37" rx="6" fill="#102936" stroke="#4EC8DA" stroke-opacity=".68"/>
+<circle cx="103" cy="395" r="5" fill="#63D5E0"/>
+<text x="120" y="400" fill="#9CE6F0" font-size="15" letter-spacing="1">OPEN TO INTERNSHIPS</text>
+<text x="82" y="460" fill="#7790A1" font-size="14">01 / BUILD     02 / VERIFY     03 / IMPROVE</text>
+<!-- Small corner references, no fake metrics -->
+<text x="1145" y="87" fill="#A77A49" font-size="14" text-anchor="end">CORE SYSTEMS</text>
+<text x="1145" y="462" fill="#69BCD0" font-size="14" text-anchor="end">HUMAN // IN THE LOOP</text>
+<text x="34" y="529" fill="#859BAB" font-size="14" letter-spacing="1">github.com/caelum2888</text>
+<text x="1162" y="529" fill="#B88956" font-size="14" text-anchor="end">SYSTEMS ARE BUILT, NOT CLAIMED.</text>
+</g>
 </svg>
