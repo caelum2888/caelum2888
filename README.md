@@ -12,6 +12,14 @@ Some of what I build is private. What's below is what I can show in detail.
   <img src="./assets/system-modules.svg" width="100%" alt="CAELUM system modules: backend, automation, AI guardrails and defensive security learning" />
 </p>
 
+## Public GitHub signal
+
+<p align="center">
+  <img src="./assets/github-signal.svg" width="100%" alt="Automated GitHub public repository snapshot: original repositories, stars, forks and languages reported by GitHub" />
+</p>
+
+<sub>GitHub API data, not fabricated activity: original public repositories only; language proportions are code bytes, not skill ratings. [Telemetry source](./scripts/render_public_stats.py) · [refresh workflow](./.github/workflows/refresh-profile.yml). The graphic is regenerated when public data changes.</sub>
+
 ---
 
 ## Systems
